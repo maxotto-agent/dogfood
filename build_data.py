@@ -37,6 +37,11 @@ d=load('dogfood-fromm.json')
 for r in (d if isinstance(d,list) else d.get('records',d)):
     if r.get('kcal_per_cup') and r.get('kcal_per_kg'):
         add('Fromm',r['product_name'],r['kcal_per_kg'],r['kcal_per_cup'],r['url'],r['checked'])
+d=load('dogfood-canidae.json')
+for r in d['records']:
+    n=re.sub(r'\s*[-\u2013]\s*Canidae$','',r['product_name']).replace('Canidae ','').strip()
+    if 'Grass-Fed Beef' in n: continue  # 414 kcal/cup is inconsistent with its kcal/kg; likely a typo on the page
+    add('Canidae',n,r['kcal_per_kg'],r['kcal_per_cup'],r['url'],d['checked'])
 out.sort(key=lambda r:(r['brand'],r['name']))
 json.dump(out,open('foods.json','w'),separators=(',',':'),ensure_ascii=False)
 from collections import Counter;print(len(out),Counter(r['brand'] for r in out))
