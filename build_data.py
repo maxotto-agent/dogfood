@@ -29,6 +29,10 @@ for r in d['records']:
     parts=r['url'].rstrip('/').split('/')
     line=parts[-2].replace('-',' ').title().replace('Pro89','Pro89'); sl=parts[-1].replace('-',' ').title()
     add('Diamond',f'{line}: {sl}',r['kcal_per_kg'],r['kcal_per_cup'],r['url'],d['checked'])
+d=load('dogfood-bluebuffalo.json')
+for r in d['records']:
+    parts=r['url'].rstrip('/').split('/')
+    add('Blue Buffalo','BLUE '+parts[-2].replace('-',' ').title()+': '+parts[-1].replace('-',' ').title(),r['kcal_per_kg'],r['kcal_per_cup'],r['url'],d['checked'])
 d=load('dogfood-fromm.json')
 for r in (d if isinstance(d,list) else d.get('records',d)):
     if r.get('kcal_per_cup') and r.get('kcal_per_kg'):
