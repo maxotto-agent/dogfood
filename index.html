@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dog food calories per cup: find your formula, get cups a day</title>
+<meta name="description" content="Look up kcal per cup and per kg for dry dog food formulas (Hill's, Royal Canin, Diamond, Fromm), get cups and grams per day, and keep calories steady when you switch bags. Runs in your browser.">
+<style>
+:root{--fg:#1d2327;--mut:#5d6872;--line:#d9dee3;--acc:#1f6f5c;--bg:#fff;--soft:#f4f7f6}
+@media(prefers-color-scheme:dark){:root{--fg:#e6e9eb;--mut:#9aa5ad;--line:#2f383e;--acc:#5fc2a8;--bg:#14181b;--soft:#1b2124}}
+*{box-sizing:border-box}body{font:16px/1.5 system-ui,sans-serif;color:var(--fg);background:var(--bg);margin:0}
+main{max-width:46rem;margin:0 auto;padding:1.5rem 1rem 3rem}
+h1{font-size:1.6rem;line-height:1.25;margin:.2rem 0 .4rem}h2{font-size:1.1rem;margin:0 0 .6rem}
+p.lead{color:var(--mut);margin:0 0 1.2rem}
+section{border:1px solid var(--line);border-radius:10px;padding:1rem;margin:0 0 1rem;background:var(--soft)}
+label{display:block;font-weight:600;font-size:.9rem;margin:.6rem 0 .2rem}
+input,select{width:100%;font:inherit;padding:.5rem;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg)}
+.row{display:flex;gap:.6rem}.row>*{flex:1}
+.res{font-size:1.25rem;font-weight:700;color:var(--acc);margin:.6rem 0 .2rem}
+.sub{color:var(--mut);font-size:.9rem}table{border-collapse:collapse;width:100%;font-size:.9rem;margin-top:.5rem}
+td,th{border-bottom:1px solid var(--line);padding:.3rem .4rem;text-align:left}
+a{color:var(--acc)}details{margin-top:.5rem}.hide{display:none}
+footer{margin-top:2rem;font-size:.75rem;color:var(--mut);border-top:1px solid var(--line);padding-top:.8rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Dog food calories per cup, by formula</h1>
+<p class="lead">A cup of dry dog food can hold 290 calories or 490. Pick your exact formula to see its kcal per cup and per kg, then get cups and grams per day, or how much of a new bag matches what you feed now. Everything runs in your browser; nothing you type is sent anywhere.</p>
+
+<section>
+<h2>1. Your food</h2>
+<label for="food">Search by brand or formula (try "Hill's adult", "Fromm gold", "Labrador")</label>
+<input id="food" list="foodlist" autocomplete="off" placeholder="Start typing…">
+<datalist id="foodlist"></datalist>
+<details><summary class="sub">Not listed? Type the numbers from your bag</summary>
+<div class="row"><div><label for="mkcup">kcal per cup</label><input id="mkcup" type="number" min="100" max="700" inputmode="numeric"></div>
+<div><label for="mkkg">kcal per kg (optional)</label><input id="mkkg" type="number" min="2000" max="6000" inputmode="numeric"></div></div>
+<p class="sub">Look for "calorie content" or "ME" on the bag or the maker's page. Some bags give kcal per kg only: divide by the grams in a cup.</p></details>
+<div id="foodinfo" class="sub"></div>
+</section>
+
+<section>
+<h2>2. How much per day</h2>
+<div class="row"><div><label for="wt">Dog's weight</label><input id="wt" type="number" min="0.5" step="any" inputmode="decimal"></div>
+<div><label for="unit">Unit</label><select id="unit"><option value="lb">pounds</option><option value="kg">kilograms</option></select></div></div>
+<label for="stage">Life stage</label><select id="stage"></select>
+<label for="target">…or type your vet's calorie target (kcal per day)</label><input id="target" type="number" min="50" inputmode="numeric">
+<div id="out1"></div>
+</section>
+
+<section>
+<h2>3. Switching foods? Keep calories the same</h2>
+<p class="sub">Search your <b>old</b> food, or type its kcal per cup, and how many cups you feed now.</p>
+<label for="old">Old food</label><input id="old" list="foodlist" autocomplete="off" placeholder="Start typing, or leave blank and type kcal per cup below">
+<div class="row"><div><label for="okcup">Old kcal per cup</label><input id="okcup" type="number" min="100" max="700" inputmode="numeric"></div>
+<div><label for="ocups">Cups per day now</label><input id="ocups" type="number" min="0" step="any" inputmode="decimal"></div></div>
+<div id="out2"></div>
+</section>
+
+<section>
+<h2>Where the numbers come from</h2>
+<p class="sub">Calories per cup and per kg are copied from each maker's own product page (metabolizable energy as fed), with the page link and the date checked. Makers revise formulas; check the bag in your hands. Dry formulas only; this page lists <span id="count"></span> from <span id="brands"></span>.</p>
+<p class="sub">Daily energy: resting energy RER = 70 × (kg)<sup>0.75</sup>, times a life-stage factor from Table 1 of the <a href="https://vmc.vet.osu.edu/companion/our-services/nutrition-support-service/basic-calorie-calculator">Ohio State University Veterinary Medical Center calorie calculator</a>: neutered adult 1.6, intact adult 1.8, inactive or obesity-prone 1.2–1.4 (we use 1.3), puppy under 4 months 3.0, puppy 4 months to adult 2.0. These are starting points for healthy dogs. Dogs with a health condition, working dogs and dogs that need to lose weight should follow their vet's number. Adjust by ±10% to keep your dog's body condition steady. <a href="https://sites.tufts.edu/petfoodology/?p=9726">Tufts' Petfoodology</a> explains why a cup of one food is not a cup of another.</p>
+<p class="sub">Purina, Blue Buffalo and some other makers are not included yet; their sites do not allow automated collection. Type your bag's numbers above.</p>
+</section>
+
+<footer>This application was autonomously scaffolded and deployed using generative software agents. Designed for lightweight, single-purpose utility. Curated and maintained by @maxim-k.</footer>
+</main>
+<script src="calc.js"></script>
+<script>
+const $=id=>document.getElementById(id);
+let foods=[], byLabel={};
+const label=f=>f.brand+' — '+f.name;
+const cu=c=>{const t=fmtCups(c);return t+(t==='1'?' cup':' cups')};
+function pick(inp){return byLabel[inp.value.trim()]||null}
+function num(id){const v=parseFloat($(id).value);return isFinite(v)&&v>0?v:null}
+function current(){const f=pick($('food'));if(f)return f;const c=num('mkcup');if(!c)return null;const k=num('mkkg');return{name:'your food',kcal_cup:c,kcal_kg:k}}
+function render(){
+  const f=current(),fi=$('foodinfo');
+  const sel=pick($('food'));
+  fi.innerHTML=sel?`<b>${sel.kcal_cup} kcal per cup</b>, ${sel.kcal_kg} kcal per kg · <a href="${sel.url}">maker's page</a>, checked ${sel.checked}`:'';
+  let kcal=num('target'),how='';
+  if(!kcal){const w=num('wt');if(w){const kg=$('unit').value==='lb'?w/2.20462:w;kcal=mer(kg,$('stage').value);
+    how=`RER ${Math.round(rer(kg))} kcal × ${FACTORS[$('stage').value][1]} (${FACTORS[$('stage').value][0].toLowerCase()})`}}
+  else how='your vet\'s target';
+  const o1=$('out1');
+  if(!kcal)o1.innerHTML='<p class="sub">Enter your dog\'s weight, or a calorie target.</p>';
+  else if(!f)o1.innerHTML=`<div class="res">About ${Math.round(kcal)} kcal per day</div><div class="sub">${how}. Pick a food above to turn this into cups.</div>`;
+  else{const p=portions(kcal,f.kcal_kg?f:{kcal_cup:f.kcal_cup,kcal_kg:null});
+    const g=f.kcal_kg?` (about ${Math.round(p.grams/5)*5} g)`:'';
+    o1.innerHTML=`<div class="res">About ${cu(p.cups)} a day${g}</div><div class="sub">${Math.round(kcal)} kcal ÷ ${f.kcal_cup} kcal per cup. ${how}. Adjust ±10% by body condition. Split across meals.</div>`}
+  // switching
+  const so=pick($('old')); if(so&&document.activeElement!==$('okcup'))$('okcup').value=so.kcal_cup;
+  const ok=num('okcup'),oc=num('ocups'),o2=$('out2');
+  if(!ok||!oc||!f)o2.innerHTML='';
+  else{const s=switchCups(oc,ok,f.kcal_cup),pct=Math.round(s.change*100);
+    const dir=pct===0?'the same calories per cup':`${Math.abs(pct)}% ${pct>0?'richer':'leaner'} per cup`;
+    let g=f.kcal_kg?` (about ${Math.round(s.kcal/f.kcal_kg*1000/5)*5} g)`:'';
+    let h=`<div class="res">Feed ${cu(s.cups)} of the new food${g}</div><div class="sub">Your ${oc} cups × ${ok} kcal = ${Math.round(s.kcal)} kcal a day. The new food is ${dir}, so ${oc} cups of it would be ${Math.round(oc*f.kcal_cup)} kcal.</div>`;
+    h+='<details open><summary class="sub">7-day mix, calorie-matched</summary><table><tr><th>Day</th><th>New</th><th>Old</th></tr>'+mixPlan(s.kcal,ok,f.kcal_cup).map(r=>`<tr><td>${r.day}</td><td>${cu(r.newCups)} (${r.share*100}%)</td><td>${cu(r.oldCups)}</td></tr>`).join('')+'</table><p class="sub">The 25/50/75% steps are the usual vet advice; the cups are set so each day totals the same calories. Slow down if stools soften.</p></details>';
+    o2.innerHTML=h}
+}
+fetch('foods.json').then(r=>r.json()).then(d=>{foods=d;const dl=$('foodlist');
+  d.forEach(f=>{const l=label(f);byLabel[l]=f;const o=document.createElement('option');o.value=l;dl.appendChild(o)});
+  $('count').textContent=d.length+' formulas';$('brands').textContent=[...new Set(d.map(f=>f.brand))].join(', ');render()});
+$('stage').innerHTML=Object.entries(FACTORS).map(([k,v])=>`<option value="${k}">${v[0]} (× ${v[1]})</option>`).join('');
+document.querySelectorAll('input,select').forEach(e=>e.addEventListener('input',render));
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-19",
+  "records": [
+    {"brand": "Diamond Naturals", "product_name": "Adult Dog Beef Meal & Rice Formula", "life_stage": "Adult", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/adult-dog-beef-meal-rice-formula/"},
+    {"brand": "Diamond Naturals", "product_name": "Adult Dog Lamb Meal & Rice Formula", "life_stage": "Adult", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/adult-dog-lamb-meal-rice/"},
+    {"brand": "Diamond Naturals", "product_name": "All Life Stages Dog Chicken & Rice Formula", "life_stage": "All Life Stages", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/all-life-stages-dog-chicken-rice/"},
+    {"brand": "Diamond Naturals", "product_name": "Extreme Athlete Adult Dog Chicken & Rice Formula", "life_stage": "Adult", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/extreme-athlete-adult-dog-chicken-rice-formula/"},
+    {"brand": "Diamond Naturals", "product_name": "Large Breed Adult Dog Chicken & Rice Formula", "life_stage": "Adult", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/large-breed-adult-dog-chicken-rice/"},
+    {"brand": "Diamond Naturals", "product_name": "Large Breed Adult Dog Lamb Meal & Rice Formula", "life_stage": "Adult", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/large-breed-adult-dog-lamb-meal-rice/"},
+    {"brand": "Diamond Naturals", "product_name": "Large Breed Puppy Lamb & Rice Formula", "life_stage": "Puppy", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/large-breed-puppy-lamb-rice/"},
+    {"brand": "Diamond Naturals", "product_name": "Light Adult Dog Lamb Meal & Rice Formula", "life_stage": "Adult", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/light-adult-dog-lamb-meal-rice/"},
+    {"brand": "Diamond Naturals", "product_name": "Senior Dog Chicken, Egg & Oatmeal Formula", "life_stage": "Senior", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/senior-dog-chicken-egg-oatmeal/"},
+    {"brand": "Diamond Naturals", "product_name": "Skin & Coat All Life Stages Dog Salmon & Potato Formula", "life_stage": "All Life Stages", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/skin-coat-all-life-stages-dog-salmon-potato-formula/"},
+    {"brand": "Diamond Naturals", "product_name": "Small & Medium Breed Puppy Chicken & Rice Formula", "life_stage": "Puppy", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/small-medium-breed-puppy-chicken-rice/"},
+    {"brand": "Diamond Naturals", "product_name": "Small Breed Adult Dog Chicken & Rice Formula", "life_stage": "Adult", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/small-breed-adult-dog-chicken-rice/"},
+    {"brand": "Diamond Naturals", "product_name": "Small Breed Adult Dog Lamb & Rice Formula", "life_stage": "Adult", "kcal_per_kg": null, "kcal_per_cup": null, "cup_size": null, "url": "https://www.diamondpet.com/dog/diamond-naturals/small-breed-adult-dog-lamb-rice/"}
+  ],
+  "notes": [
+    "Wellness, Canidae, Victor, Acana/Orijen: no product records extracted. Guessed category URLs returned 404; homepages listed no product-level calorie data.",
+    "Victor (victorpetfood.com/www) returned a TLS certificate hostname mismatch on the www host; the non-www homepage was fetched but listed only product lines.",
+    "Canidae homepage links: https://canidae.com/all-life-stages-dog/ , https://canidae.com/heartland , https://canidae.com/new-pure-farm-to-bowl (not fetched for calorie data).",
+    "Diamond Naturals: product list extracted from category page; calorie information stated absent on the page, so all kcal fields are null. Individual product pages not fetched.",
+    "Run stopped early due to remaining research budget."
+  ]
+}

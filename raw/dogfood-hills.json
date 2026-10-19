@@ -1,0 +1,650 @@
+{
+"checked": "2026-10-19",
+"source": "hillspet.com product pages (Average Nutrient & Caloric Content)",
+"records": [
+{
+"brand": "Hill's",
+"product_name": "Puppy Small & Mini Chicken & Brown Rice Recipe",
+"kcal_per_kg": 3780,
+"kcal_per_cup": 418,
+"url": "https://www.hillspet.com/dog-food/science-diet-puppy-small-paws-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Puppy Small Bites Chicken & Brown Rice Recipe",
+"kcal_per_kg": 3747,
+"kcal_per_cup": 393,
+"url": "https://www.hillspet.com/dog-food/science-diet-puppy-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Perfect Weight Small Bites Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3189,
+"kcal_per_cup": 316,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-perfect-weight-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Perfect Weight Large Breed Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3189,
+"kcal_per_cup": 289,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-perfect-weight-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult 7+ Chicken Meal, Barley & Rice Recipe Dog Food",
+"kcal_per_kg": 3550,
+"kcal_per_cup": 352,
+"url": "https://www.hillspet.com/dog-food/science-diet-mature-adult-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Light Small Bites Chicken Meal & Barley Recipe Dog Food",
+"kcal_per_kg": 2961,
+"kcal_per_cup": 243,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-light-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult No Corn, Wheat, Soy Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3718,
+"kcal_per_cup": 390,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-no-corn-wheat-soy-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Salmon & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3612,
+"kcal_per_cup": 358,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-salmon-brown-rice-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Healthy Mobility Large Breed Chicken Meal, Barley & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3635,
+"kcal_per_cup": 361,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-healthy-mobility-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "i/d Low Fat Dry Dog Food",
+"kcal_per_kg": 3511,
+"kcal_per_cup": 319,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-id-low-fat-digestive-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Metabolic Chicken Flavor Dog Food",
+"kcal_per_kg": 3124,
+"kcal_per_cup": 257,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-metabolic-weight-management-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Lamb Meal & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3719,
+"kcal_per_cup": 369,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-lamb-rice-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Large Breed Lamb Meal & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3721,
+"kcal_per_cup": 369,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-lamb-rice-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Puppy Large Breed Chicken & Brown Rice Recipe",
+"kcal_per_kg": 3628,
+"kcal_per_cup": 391,
+"url": "https://www.hillspet.com/dog-food/science-diet-puppy-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Perfect Weight Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3189,
+"kcal_per_cup": 298,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-perfect-weight-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Oral Care Chicken, Brown Rice & Barley Recipe Dog Food",
+"kcal_per_kg": 3426,
+"kcal_per_cup": 272,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-oral-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Metabolic Lamb Meal & Rice Formula Dry Dog Food",
+"kcal_per_kg": 3094,
+"kcal_per_cup": 254,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-metabolic-lamb-weight-management-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "t/d Small Bites Chicken Flavor Dry Dog Food",
+"kcal_per_kg": 3468,
+"kcal_per_cup": 347,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-td-small-bites-dental-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "t/d Chicken Flavor Dry Dog Food",
+"kcal_per_kg": 3468,
+"kcal_per_cup": 246,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-td-dental-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "d/d Potato & Duck Recipe Dog Food",
+"kcal_per_kg": 3651,
+"kcal_per_cup": 365,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-dd-potato-duck-skin-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "d/d Potato & Salmon Recipe Dry Dog Food",
+"kcal_per_kg": 3643,
+"kcal_per_cup": 364,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-dd-potato-salmon-skin-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "j/d Dry Dog Food",
+"kcal_per_kg": 3670,
+"kcal_per_cup": 364,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-jd-joint-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "r/d Chicken Flavor Dry Dog Food",
+"kcal_per_kg": 2943,
+"kcal_per_cup": 242,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-rd-weight-management-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "h/d Chicken Flavor Dry Dog Food",
+"kcal_per_kg": 4002,
+"kcal_per_cup": 420,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-hd-heart-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "l/d Chicken Flavor Dog Food",
+"kcal_per_kg": 4719,
+"kcal_per_cup": 495,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-ld-liver-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Small & Mini Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3699,
+"kcal_per_cup": 357,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-small-paws-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "c/d Multicare Chicken Flavor Dog Food",
+"kcal_per_kg": 3820,
+"kcal_per_cup": 379,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-cd-multicare-urinary-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "k/d with Lamb Dog Food",
+"kcal_per_kg": 4049,
+"kcal_per_cup": 459,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-kd-lamb-kidney-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "z/d Small Bites Hydrolyzed Chicken Flavor Dog Food",
+"kcal_per_kg": 3504,
+"kcal_per_cup": 397,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-zd-small-bites-food-sensitivities-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "i/d Small Bites Chicken Flavor Dog Food",
+"kcal_per_kg": 3589,
+"kcal_per_cup": 376,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-id-small-bites-digestive-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Light Chicken Meal & Barley Recipe Dog Food",
+"kcal_per_kg": 2961,
+"kcal_per_cup": 243,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-light-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Light Large Breed Chicken Meal & Barley Recipe Dog Food",
+"kcal_per_kg": 2961,
+"kcal_per_cup": 243,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-light-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Large Breed No Corn, Wheat, Soy Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3718,
+"kcal_per_cup": 390,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-large-breed-no-corn-wheat-soy-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult 7+ No Corn, Wheat, Soy Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3635,
+"kcal_per_cup": 381,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-7-no-corn-wheat-soy-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Sensitive Stomach & Skin Large Breed Chicken & Barley Recipe Dog Food",
+"kcal_per_kg": 3747,
+"kcal_per_cup": 393,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-sensitive-stomach-skin-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Derm Complete Rice & Egg Recipe Dry Dog Food",
+"kcal_per_kg": 3816,
+"kcal_per_cup": 389,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-derm-complete-reg-bites-skin-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Perfect Digestion Large Breed Chicken & Barley Recipe Dog Food",
+"kcal_per_kg": 3607,
+"kcal_per_cup": 368,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-perfect-digestion-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult 7+ Perfect Digestion Small Bites Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3545,
+"kcal_per_cup": 352,
+"url": "https://www.hillspet.com/dog-food/science-diet-mature-adult-7-perfect-digestion-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Perfect Digestion Salmon & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3647,
+"kcal_per_cup": 341,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-perfect-digestion-salmon-oats-rice-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Derm Complete Puppy Rice & Egg Recipe Dry Dog Food",
+"kcal_per_kg": 3868,
+"kcal_per_cup": 406,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-derm-complete-puppy-original-skin-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Sensitive Stomach & Skin Pollock Meal & Insect Recipe Dog Food",
+"kcal_per_kg": 3774,
+"kcal_per_cup": 385,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-sensitive-stomach-skin-pollock-insect-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Puppy Lamb Meal & Brown Rice Recipe",
+"kcal_per_kg": 3773,
+"kcal_per_cup": 385,
+"url": "https://www.hillspet.com/dog-food/science-diet-puppy-lamb-meal-rice-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Puppy Large Breed Lamb Meal & Brown Rice Recipe",
+"kcal_per_kg": 3742,
+"kcal_per_cup": 382,
+"url": "https://www.hillspet.com/dog-food/science-diet-puppy-lamb-rice-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Perfect Weight & Joint Support Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3204,
+"kcal_per_cup": 327,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-perfect-weight-joint-support-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Perfect Weight & Joint Support Large Breed Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3204,
+"kcal_per_cup": 300,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-perfect-weight-joint-support-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "z/d Low Fat Hydrolyzed Soy Recipe Dry Dog Food",
+"kcal_per_kg": 3198,
+"kcal_per_cup": 317,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-zd-low-fat-hydrolysed-soy-food-sensitivities-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Perfect Digestion Small & Mini Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3709,
+"kcal_per_cup": 347,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-perfect-digestion-small-mini-chicken-brown-rice-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "c/d Multicare Low Fat Dog Food",
+"kcal_per_kg": 3378,
+"kcal_per_cup": 335,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-cd-multicare-low-fat-chicken-urinary-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Brain Care + j/d Dog Food",
+"kcal_per_kg": 3648,
+"kcal_per_cup": 362,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-brain-care-jd-chicken-brain-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "i/d Puppy Chicken Flavor Dog Food",
+"kcal_per_kg": 3857,
+"kcal_per_cup": 405,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-id-puppy-chicken-flavor-digestive-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Metabolic Chicken Flavor Dog Food",
+"kcal_per_kg": 3124,
+"kcal_per_cup": 257,
+"url": "https://www.hillspet.com/dog-food/pd-canine-metabolic-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Perfect Digestion Small Bites Chicken, Brown Rice & Whole Oats Recipe Dog Food",
+"kcal_per_kg": 3620,
+"kcal_per_cup": 359,
+"url": "https://www.hillspet.com/dog-food/sd-canine-adult-perfect-digestion-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Metabolic Weight + j/d Chicken Flavor Dry Dog Food",
+"kcal_per_kg": 3223,
+"kcal_per_cup": 292,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-metabolic-mobility-weight-management-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "i/d Chicken Flavor Dog Food",
+"kcal_per_kg": 3589,
+"kcal_per_cup": 356,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-id-digestive-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "k/d with Chicken Dog Food",
+"kcal_per_kg": 3991,
+"kcal_per_cup": 419,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-kd-current-kidney-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "w/d Multi-Benefit Dry Dog Food",
+"kcal_per_kg": 3087,
+"kcal_per_cup": 254,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-wd-glucose-management-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "z/d Hydrolyzed Chicken Flavor Dog Food",
+"kcal_per_kg": 3505,
+"kcal_per_cup": 348,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-zd-food-sensitivities-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Large Breed Chicken & Barley Recipe Dog Food",
+"kcal_per_kg": 3675,
+"kcal_per_cup": 365,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Oral Care Small & Mini Chicken & Barley Recipe Dog Food",
+"kcal_per_kg": 3472,
+"kcal_per_cup": 276,
+"url": "https://www.hillspet.com/dog-food/science-diet-oral-adult-oral-care-small-mini-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Small Bites Chicken & Barley Recipe Dog Food",
+"kcal_per_kg": 3683,
+"kcal_per_cup": 365,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Chicken & Barley Recipe Dog Food",
+"kcal_per_kg": 3675,
+"kcal_per_cup": 365,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-original-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult 6+ Large Breed Chicken Meal, Barley & Rice Recipe Dog Food",
+"kcal_per_kg": 3550,
+"kcal_per_cup": 352,
+"url": "https://www.hillspet.com/dog-food/science-diet-mature-adult-large-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Small Bites No Corn, Wheat, Soy Chicken & Brown Rice Recipe dog food",
+"kcal_per_kg": 3713,
+"kcal_per_cup": 389,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-small-bites-no-corn-wheat-soy-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Small Bites Lamb Meal & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3721,
+"kcal_per_cup": 369,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-lamb-rice-small-bites-health-guard-skin-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Sensitive Stomach & Skin Large Breed Chicken & Barley Recipe Dog Food",
+"kcal_per_kg": 3747,
+"kcal_per_cup": 393,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-sensitive-stomach-skin-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Sensitive Stomach & Skin Grain Free Chicken & Potato Recipe Dog Food",
+"kcal_per_kg": 3776,
+"kcal_per_cup": 407,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-grain-free-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Sensitive Stomach & Skin Salmon & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3813,
+"kcal_per_cup": 400,
+"url": "https://www.hillspet.com/dog-food/science-diet-canine-adult-sensitive-stomach-skin-salmon-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Sensitive Stomach & Skin Chicken & Barley Recipe Dog Food",
+"kcal_per_kg": 3732,
+"kcal_per_cup": 391,
+"url": "https://www.hillspet.com/dog-food/science-diet-canine-adult-sensitive-stomach-skin-chicken-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Sensitive Stomach & Skin Small & Mini Chicken Recipe Dog Food",
+"kcal_per_kg": 3728,
+"kcal_per_cup": 380,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-sensitive-stomach-skin-small-mini-chicken-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "c/d Multicare + Metabolic Weight Dry Dog Food",
+"kcal_per_kg": 3147,
+"kcal_per_cup": 277,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-cd-multicare-metabolicy-urinary-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "k/d with Chicken Dog Food",
+"kcal_per_kg": 3991,
+"kcal_per_cup": 419,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-kd-kidney-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Small Bites Lamb Meal & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3721,
+"kcal_per_cup": 369,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-lamb-rice-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Hill's Prescription Diet k/d + Derm Complete Rice & Egg Recipe Dog Food",
+"kcal_per_kg": 3883,
+"kcal_per_cup": 440,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-kd-derm-complete-egg-and-rice-kidney-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Sensitive Stomach & Skin Small Bites Chicken & Barley Recipe Dog Food",
+"kcal_per_kg": 3747,
+"kcal_per_cup": 393,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-sensitive-stomach-skin-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Puppy Sensitive Stomach & Skin Salmon & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3857,
+"kcal_per_cup": 405,
+"url": "https://www.hillspet.com/dog-food/science-diet-puppy-sensitive-stomach-skin-salmon-brown-rice-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Multi-Organ Complex Support Dog Food",
+"kcal_per_kg": 3495,
+"kcal_per_cup": 347,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-multi-organ-multi-organ-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Gastrointestinal Biome Dry Dog Food",
+"kcal_per_kg": 3327,
+"kcal_per_cup": 330,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-gastrointestinal-biome-digestive-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "k/d + j/d Chicken Flavor Dog Food",
+"kcal_per_kg": 4011,
+"kcal_per_cup": 401,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-kd-mobility-chicken-kidney-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Perfect Digestion Chicken & Barley Recipe Dog Food",
+"kcal_per_kg": 3607,
+"kcal_per_cup": 368,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-perfect-digestion-chicken-rice-oats-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "u/d Dry Dog Food",
+"kcal_per_kg": 3986,
+"kcal_per_cup": 429,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-ud-urinary-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Perfect Weight Small & Mini Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3189,
+"kcal_per_cup": 298,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-perfect-weight-small-paws-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "d/d Potato & Venison Recipe Dry Dog Food",
+"kcal_per_kg": 3636,
+"kcal_per_cup": 364,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-dd-potato-venison-skin-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "ONC Care with Chicken Dry Dog Food",
+"kcal_per_kg": 4158,
+"kcal_per_cup": 483,
+"url": "https://www.hillspet.com/dog-food/prescription-diet-onc-on-care-chicken-restorative-care-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult 7+ Senior Vitality Small & Mini Chicken & Rice Recipe Dog Food",
+"kcal_per_kg": 3649,
+"kcal_per_cup": 341,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-7-senior-vitality-small-paws-chicken-rice-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Light Small Bites Chicken Meal & Barley Recipe Dog Food",
+"kcal_per_kg": 2961,
+"kcal_per_cup": 243,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-light-small-paws-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult 7+ Perfect Digestion Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3546,
+"kcal_per_cup": 362,
+"url": "https://www.hillspet.com/dog-food/science-diet-mature-adult-7-perfect-digestion-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult 7+ Senior Vitality Chicken Recipe Dog Food",
+"kcal_per_kg": 3619,
+"kcal_per_cup": 359,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-7-senior-vitality-chicken-rice-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult 7+ Small & Mini Chicken & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3619,
+"kcal_per_cup": 359,
+"url": "https://www.hillspet.com/dog-food/science-diet-mature-adult-small-paws-breed-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult 7+ Small Bites Chicken Meal, Barley & Rice Recipe Dog Food",
+"kcal_per_kg": 3550,
+"kcal_per_cup": 352,
+"url": "https://www.hillspet.com/dog-food/science-diet-mature-adult-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Healthy Mobility Small Bites Chicken Meal, Barley & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3635,
+"kcal_per_cup": 361,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-healthy-mobility-small-bites-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult Small & Mini Lamb Meal & Brown Rice Recipe Dog Food",
+"kcal_per_kg": 3647,
+"kcal_per_cup": 372,
+"url": "https://www.hillspet.com/dog-food/science-diet-adult-small-paws-lamb-rice-dry"
+},
+{
+"brand": "Hill's",
+"product_name": "Adult 11+ Small & Mini Chicken, Brown Rice & Barley Recipe Dog Food",
+"kcal_per_kg": 3807,
+"kcal_per_cup": 378,
+"url": "https://www.hillspet.com/dog-food/science-diet-senior-11-small-paws-dry"
+}
+]
+}
