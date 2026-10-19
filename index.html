@@ -72,20 +72,22 @@ footer{margin-top:2rem;font-size:.75rem;color:var(--mut);border-top:1px solid va
 const $=id=>document.getElementById(id);
 let foods=[], byLabel={};
 const label=f=>f.brand+' — '+f.name;
-const cu=c=>{const t=fmtCups(c);return t+(t==='1'?' cup':' cups')};
+const cu=c=>{const t=fmtCups(c);return t+(t==='1'||!t.includes(' ')&&t.includes('/')?' cup':' cups')};
 function pick(inp){return byLabel[inp.value.trim()]||null}
 function num(id){const v=parseFloat($(id).value);return isFinite(v)&&v>0?v:null}
 function current(){const f=pick($('food'));if(f)return f;const c=num('mkcup');if(!c)return null;const k=num('mkkg');return{name:'your food',kcal_cup:c,kcal_kg:k}}
 function render(){
   const f=current(),fi=$('foodinfo');
   const sel=pick($('food'));
-  fi.innerHTML=sel?`<b>${sel.kcal_cup} kcal per cup</b>, ${sel.kcal_kg} kcal per kg · <a href="${sel.url}">maker's page</a>, checked ${sel.checked}`:'';
+  fi.innerHTML=(!sel&&$('food').value.trim())?'No formula by that name: pick one from the list as you type, or enter the numbers from your bag under "Not listed?".':sel?`<b>${sel.kcal_cup} kcal per cup</b>, ${sel.kcal_kg} kcal per kg · <a href="${sel.url}">maker's page</a>, checked ${sel.checked}`:'';
   let kcal=num('target'),how='';
-  if(!kcal){const w=num('wt');if(w){const kg=$('unit').value==='lb'?w/2.20462:w;kcal=mer(kg,$('stage').value);
+  if(!kcal){const w=num('wt');if(w&&w<=($('unit').value==='lb'?400:180)){const kg=$('unit').value==='lb'?w/2.20462:w;kcal=mer(kg,$('stage').value);
     how=`RER ${Math.round(rer(kg))} kcal × ${FACTORS[$('stage').value][1]} (${FACTORS[$('stage').value][0].toLowerCase()})`}}
   else how='your vet\'s target';
   const o1=$('out1');
-  if(!kcal)o1.innerHTML='<p class="sub">Enter your dog\'s weight, or a calorie target.</p>';
+  const w0=num('wt');
+  if(!kcal&&w0)o1.innerHTML='<p class="sub">That weight looks too high. Check the unit.</p>';
+  else if(!kcal)o1.innerHTML='<p class="sub">Enter your dog\'s weight, or a calorie target.</p>';
   else if(!f)o1.innerHTML=`<div class="res">About ${Math.round(kcal)} kcal per day</div><div class="sub">${how}. Pick a food in step 1 to turn this into cups.</div>`;
   else{const p=portions(kcal,f.kcal_kg?f:{kcal_cup:f.kcal_cup,kcal_kg:null});
     const g=f.kcal_kg?` (about ${Math.round(p.grams/5)*5} g)`:'';
