@@ -47,6 +47,10 @@ import html
 for r in d['records']:
     if '/canada/' in r['url']: continue
     add('Merrick',html.unescape(r['product_name']),r['kcal_per_kg'],r['kcal_per_cup'],r['url'],d['checked'])
+d=load('dogfood-acana.json')
+for r in d['records']:
+    n=re.sub(r'\s+Dry Dog Food.*$','',r['product_name']).replace('Dog Food for Healthy Dogs','').strip()
+    add('Acana',n,r['kcal_per_kg'],r['kcal_per_cup'],r['url'],d['checked'])
 out.sort(key=lambda r:(r['brand'],r['name']))
 json.dump(out,open('foods.json','w'),separators=(',',':'),ensure_ascii=False)
 from collections import Counter;print(len(out),Counter(r['brand'] for r in out))
