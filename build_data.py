@@ -42,6 +42,11 @@ for r in d['records']:
     n=re.sub(r'\s*[-\u2013]\s*Canidae$','',r['product_name']).replace('Canidae ','').strip()
     if 'Grass-Fed Beef' in n: continue  # 414 kcal/cup is inconsistent with its kcal/kg; likely a typo on the page
     add('Canidae',n,r['kcal_per_kg'],r['kcal_per_cup'],r['url'],d['checked'])
+d=load('dogfood-merrick.json')
+import html
+for r in d['records']:
+    if '/canada/' in r['url']: continue
+    add('Merrick',html.unescape(r['product_name']),r['kcal_per_kg'],r['kcal_per_cup'],r['url'],d['checked'])
 out.sort(key=lambda r:(r['brand'],r['name']))
 json.dump(out,open('foods.json','w'),separators=(',',':'),ensure_ascii=False)
 from collections import Counter;print(len(out),Counter(r['brand'] for r in out))
